@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#home">Home</a></li>
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+    <h1 role="heading">Welcome to My Accessible Portfolio</h1>
+
+    <img role="img" src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1719014400&semt=ais_user" alt="Profile Picture of Tarun Jangra">
+
+    <p>Hello! My name is Tarun Jangra, and I am a web developer with a passion for creating accessible and user-friendly websites. Welcome to my portfolio!</p>
+
+    <!-- List with ARIA roles -->
+    <ul role="list">
+        <li role="listitem">Project 1: Accessible Website</li>
+        <li role="listitem">Project 2: Responsive Design</li>
+        <li role="listitem">Project 3: Web Application Development</li>
+    </ul>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
